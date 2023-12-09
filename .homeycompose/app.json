@@ -1,6 +1,6 @@
 {
   "id": "com.baldhor.homey-heating-manager",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -10,8 +10,9 @@
     "en": "Homey Heating Manager"
   },
   "description": {
-    "en": "Adds support for MyBrand devices."
+    "en": "Adds functionnalities to manage your house heaters."
   },
+  "brandColor": "#9e9c98",
   "category": [
     "climate"
   ],
@@ -22,7 +23,28 @@
     "xlarge": "/assets/images/xlarge.png"
   },
   "author": {
-    "name": "Baldhor s",
+    "name": "Baldhor",
     "email": "baldhors@gmail.com"
+  },
+  "homeyCommunityTopicId": 0,
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "baldhors"
+      }
+    }
+  },
+  "homepage": "https://github.com/Baldhor/homey-heating-manager/wiki",
+  "support": "https://github.com/Baldhor/homey-heating-manager/wiki/User-Guide",
+  "source": "https://github.com/Baldhor/homey-heating-manager",
+  "bugs": {
+    "url": "https://github.com/Baldhor/homey-heating-manager/issues"
+  },
+  "tags": {
+    "en": [
+      "Heater",
+      "Climate",
+      "Temperature"
+    ]
   }
 }
